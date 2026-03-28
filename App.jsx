@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 
-const API = 'https://peddapalli-road-risks.onrender.com'
+const API = 'http://localhost:8000'
 
 // ── Colour helpers ──────────────────────────────────────────
 const riskColor = (score) => {
